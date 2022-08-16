@@ -1,0 +1,29 @@
+# Nmap 7.92 scan initiated Sat Jun 25 20:25:43 2022 as: nmap -sC -sV -p22,80,443 -oN targeted 10.10.11.149
+Nmap scan report for 10.10.11.149
+Host is up (0.031s latency).
+
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 9d:f3:87:cd:34:75:83:e0:3f:50:d8:39:c6:a5:32:9f (RSA)
+|   256 ab:61:ce:eb:ed:e2:86:76:e9:e1:52:fa:a5:c7:7b:20 (ECDSA)
+|_  256 26:2e:38:ca:df:72:d4:54:fc:75:a4:91:65:cc:e8:b0 (ED25519)
+80/tcp  open  http     Apache httpd
+|_http-server-header: Apache
+|_http-title: Did not follow redirect to https://phoenix.htb/
+443/tcp open  ssl/http Apache httpd
+|_http-title: Did not follow redirect to https://phoenix.htb/
+| http-robots.txt: 1 disallowed entry 
+|_/wp-admin/
+|_http-server-header: Apache
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| ssl-cert: Subject: commonName=phoenix.htb/organizationName=Phoenix Security Ltd./stateOrProvinceName=Arizona/countryName=US
+| Not valid before: 2022-02-15T20:08:43
+|_Not valid after:  2032-02-13T20:08:43
+|_ssl-date: TLS randomness does not represent time
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jun 25 20:26:00 2022 -- 1 IP address (1 host up) scanned in 16.89 seconds

@@ -1,0 +1,2 @@
+[1m[34mhttp://10.10.11.140[0m [301 Moved Permanently] [1mApache[0m, [1mCountry[0m[[0m[22mRESERVED[0m][[1m[31mZZ[0m], [1mHTTPServer[0m[[1m[36mApache[0m], [1mIP[0m[[0m[22m10.10.11.140[0m], [1mRedirectLocation[0m[[0m[22mhttp://artcorp.htb[0m]
+[1m[34mhttp://artcorp.htb[0m [200 OK] [1mApache[0m, [1mCountry[0m[[0m[22mRESERVED[0m][[1m[31mZZ[0m], [1mHTML5[0m, [1mHTTPServer[0m[[1m[36mApache[0m], [1mIP[0m[[0m[22m10.10.11.140[0m], [1mTitle[0m[[1m[33mHome[0m]
